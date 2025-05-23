@@ -288,10 +288,6 @@ nav .right a span{
     .herosection{
         flex-direction: column-reverse;
     }
-    
-    .herosection p{
-        font-size: 32px;
-    }
 
     .herosection .headshot img{
         width: 200px;
@@ -311,22 +307,6 @@ nav .right a span{
         flex-direction: column;
     }
 
-    .certifications-section{
-        flex-direction: column;
-    }
-
-        .skillssection{
-        padding: 0 20px;
-        flex-direction: column;
-    }
-
-    .skillssection .cells .cell span{
-        font-size: 16px;
-    }
-
-    .skillssection .text{
-        padding: 0 20px;
-    }
 }
 @media (max-width: 600px){
     /* Navbar */
@@ -359,38 +339,20 @@ nav .right a span{
         font-size: 30px;
     }
 
-    .herosection .text p{
-        font-size: 16px;
-    }
-
-    .herosection .links {
-        font-size: 16px;
-        flex-direction: column;
-    }
 
     /*Section 2: Skills*/
 
     .skillssection{
         padding: 0 20px;
-        flex-direction: column;
     }
 
     .skillssection .cells .cell span{
         font-size: 16px;
     }
 
-    .skillssection .text{
-        padding: 0 20px;
-    }
-
-
 /*Section 4*/
 
     .contact-section{
         padding: 0 20px;
-    }
-
-    .certifications-section{
-        text-align: left;
     }
 }    
